@@ -4,7 +4,7 @@ import { Loader2 } from "lucide-react";
 import { useRouter, useSearchParams } from "next/navigation";
 import { trpc } from "../_trpc/client";
 import { useEffect } from "react";
-
+export const dynamic = "force-dynamic";
 const Page = () => {
   const router = useRouter();
 
