@@ -1,7 +1,7 @@
+"use client";
 import { useRouter, useSearchParams } from "next/navigation";
 import { trpc } from "../_trpc/client";
 import { useEffect } from "react";
-
 const Page = () => {
   const router = useRouter();
 
