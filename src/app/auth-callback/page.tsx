@@ -19,6 +19,7 @@ const Page = () => {
   useEffect(() => {
     if (status === "success") {
       router.push(origin ? `/${origin}` : "/dashboard");
+      console.log(status);
     }
   }, [status, origin, router]);
 
